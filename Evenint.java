@@ -1,6 +1,6 @@
 import  java.io.*;
 import java.util.*;
-public class Odd
+public class Evenint
 {
     public static void main(String[] args)
     {
@@ -9,7 +9,7 @@ public class Odd
         int max=s.nextInt();
         for(int i=min;i<=max;i++)
         {
-            if(i%2==1)
+            if(i%2==0)
             {
                 System.out.println(i);
             }
