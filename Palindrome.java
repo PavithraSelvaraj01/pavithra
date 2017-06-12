@@ -9,11 +9,14 @@ public class Palindrome
          int n=scan.nextInt();
          int k=n;
         int rem=0;
-        while(n>0)
+        if(n>9)
         {
+        while(n>0)
+            {
             rem=rem*10+n%10;
             n=n/10;
-        }
+            }
+        
         if(k==rem)
         {
         System.out.println("palindrome");
@@ -22,6 +25,11 @@ public class Palindrome
         {
             System.out.println("not a palindrome");
         }
+    }
+            else
+            {
+                System.out.println("data inadequate");
+            }
     }
 }
 
