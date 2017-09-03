@@ -9,7 +9,6 @@ class ReverseStr
         s.append(sc.nextLine());
         StringBuffer s1=s.reverse();
         String s2=String.valueOf(s1);
-        String res="";
         for(int i=0;i<s2.length();i++)
         {
             char c=s2.charAt(i);
